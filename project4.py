@@ -1,11 +1,12 @@
 # import face_recognition
+
 import cv2 as cv
 import os
 import numpy as np
 
 
 video_capture = cv.VideoCapture(0)
-path = '../'
+path = './image.jpg'
 while video_capture.isOpened():
     ret, img = video_capture.read()
 
